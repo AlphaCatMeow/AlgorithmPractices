@@ -12,7 +12,7 @@
 input_str,k = input(),int(input())
 str_length = len(input_str)
 if input_str != "":
-    if (1 <= k <= str_length):
+    if 1 <= k <= str_length:
         print(input_str[0:k])
     else:
         print("输入的整数不在正确范围内")
