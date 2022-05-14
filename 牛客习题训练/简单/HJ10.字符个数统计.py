@@ -8,3 +8,5 @@
 
 # 输出描述：
 # 输出 输入字符串 中范围在(0~127，包括0和127)字符的种数。
+print(len(set(input().replace('\n',''))))
+# print(len(set(map(lambda x: x, input().replace('\n','')))))
